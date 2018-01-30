@@ -7,6 +7,7 @@
 
 int main()
 {
+
 	Parseador parseador;
 	parseador.Abrir();
 

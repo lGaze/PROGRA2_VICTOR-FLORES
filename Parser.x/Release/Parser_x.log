@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
+  Parser_x.cpp
+Parser_x.cpp(217): error C2065: 'v': identificador no declarado
+Parser_x.cpp(217): error C2227: el operando izquierdo de '->x' debe señalar al tipo class/struct/union/generic
+  Parser_x.cpp(217): note: el tipo es 'unknown-type'
+Parser_x.cpp(220): error C2065: 'v': identificador no declarado
+Parser_x.cpp(220): error C2227: el operando izquierdo de '->y' debe señalar al tipo class/struct/union/generic
+  Parser_x.cpp(220): note: el tipo es 'unknown-type'
+Parser_x.cpp(223): error C2065: 'v': identificador no declarado
+Parser_x.cpp(223): error C2227: el operando izquierdo de '->z' debe señalar al tipo class/struct/union/generic
+  Parser_x.cpp(223): note: el tipo es 'unknown-type'
+Parser_x.cpp(224): error C2065: 'v': identificador no declarado
+Parser_x.cpp(224): error C2227: el operando izquierdo de '->x' debe señalar al tipo class/struct/union/generic
+  Parser_x.cpp(224): note: el tipo es 'unknown-type'
+Parser_x.cpp(224): error C2227: el operando izquierdo de '->y' debe señalar al tipo class/struct/union/generic
+  Parser_x.cpp(224): note: el tipo es 'unknown-type'
+Parser_x.cpp(224): error C2227: el operando izquierdo de '->z' debe señalar al tipo class/struct/union/generic
+  Parser_x.cpp(224): note: el tipo es 'unknown-type'
