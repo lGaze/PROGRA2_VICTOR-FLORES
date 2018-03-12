@@ -9,7 +9,10 @@ using namespace std;
 
 Arbol::Arbol()
 {
-	Root = NULL;
+	nodo = new NODO("Unidad C");
+	Root = nodo;
+	nodo->setNextSibling(nodo);
+	PadreActual = Root;
 }
 
 
@@ -22,14 +25,9 @@ bool Arbol::MkDir(string nombre)
 {	
 	
 	nodo = new NODO(nombre);
+		
 	
-	if (Root == NULL)
-	{
-		Root = nodo;	
-		nodo->setNextSibling(nodo);
-		PadreActual = Root;
-	}
-	else if (PadreActual->Hijos.size() == 0)
+	if (PadreActual->Hijos.size() == 0)
 	{
 		PadreActual->Hijos.push_back(nodo);
 		
@@ -63,7 +61,7 @@ void Arbol::CD(string nombre)
 
 void Arbol::Dir()
 {
-	cout << " " << PadreActual->getNombre() << endl;
+	cout << " " << Root->getNombre()<< endl;
 	for (int i = 0; i < PadreActual->Hijos.size(); i++)
 	{
 		cout << "       " << PadreActual->Hijos[i]->getNombre() << endl;    
