@@ -14,8 +14,11 @@ int main()
 	folders.Dir();
 	folders.CD("artistas");
 	folders.MkDir("canciones");
+	folders.MkDir("generos");
 	folders.Dir();
-
+	folders.RmDir("canciones");
+	folders.Dir();
+	
     return 0;
 }
 

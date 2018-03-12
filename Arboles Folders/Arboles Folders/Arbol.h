@@ -10,6 +10,7 @@ public:
 	bool MkDir(string nombre);
 	void CD(string nombre);
 	void Dir();
+	bool RmDir(string nombre);
 	NODO * Root;
 	int contador = 0;
 	NODO * PadreActual;

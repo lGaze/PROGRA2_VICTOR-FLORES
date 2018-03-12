@@ -68,6 +68,20 @@ void Arbol::Dir()
 	}
 }
 
+bool Arbol::RmDir(string nombre)
+{
+	for (int i = 0; i < PadreActual->Hijos.size(); i++)
+	{
+
+		if (PadreActual->Hijos[i]->getNombre() == nombre)
+		{
+			PadreActual->Hijos.erase(PadreActual->Hijos.begin() + i);
+		}
+
+	}
+	return true;
+}
+
 
 
 
