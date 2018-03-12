@@ -15,13 +15,13 @@ Arbol::Arbol()
 
 Arbol::~Arbol()
 {
-	
+	delete nodo;
 }
 
 bool Arbol::MkDir(string nombre)
 {	
 	
-	NODO * nodo = new NODO(nombre);
+	nodo = new NODO(nombre);
 	
 	if (Root == NULL)
 	{
@@ -42,7 +42,7 @@ bool Arbol::MkDir(string nombre)
 	}
 
 	
-
+	
 	return true;
 }
 
@@ -63,10 +63,10 @@ void Arbol::CD(string nombre)
 
 void Arbol::Dir()
 {
-	cout << PadreActual->getNombre() << endl;
+	cout << " " << PadreActual->getNombre() << endl;
 	for (int i = 0; i < PadreActual->Hijos.size(); i++)
 	{
-		cout << " " << PadreActual->Hijos[i]->getNombre() << endl;    
+		cout << "       " << PadreActual->Hijos[i]->getNombre() << endl;    
 	}
 }
 
@@ -86,7 +86,7 @@ bool Arbol::RmDir(string nombre)
 
 void Arbol::CDback()
 {
-	PadreActual = PadreAnterior;
+	PadreActual = Root;
 }
 
 

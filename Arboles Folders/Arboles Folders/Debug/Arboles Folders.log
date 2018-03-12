@@ -1,3 +1,6 @@
-﻿  Arboles Folders.cpp
+﻿  Arbol.cpp
+c:\users\victor\desktop\progra ii\progra2_victor-flores\arboles folders\arboles folders\arbol.cpp(52): warning C4018: '<': no coinciden signed/unsigned
+c:\users\victor\desktop\progra ii\progra2_victor-flores\arboles folders\arboles folders\arbol.cpp(67): warning C4018: '<': no coinciden signed/unsigned
+c:\users\victor\desktop\progra ii\progra2_victor-flores\arboles folders\arboles folders\arbol.cpp(75): warning C4018: '<': no coinciden signed/unsigned
   Arboles Folders.vcxproj -> C:\Users\Victor\Desktop\PROGRA II\PROGRA2_VICTOR-FLORES\Arboles Folders\Debug\Arboles Folders.exe
   Arboles Folders.vcxproj -> C:\Users\Victor\Desktop\PROGRA II\PROGRA2_VICTOR-FLORES\Arboles Folders\Debug\Arboles Folders.pdb (Partial PDB)

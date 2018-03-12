@@ -16,6 +16,7 @@ public:
 	int contador = 0;
 	NODO * PadreActual;
 	NODO* PadreAnterior;
+	NODO * nodo;
 	
 };
 
