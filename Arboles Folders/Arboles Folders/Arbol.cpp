@@ -15,6 +15,7 @@ Arbol::Arbol()
 
 Arbol::~Arbol()
 {
+	
 }
 
 bool Arbol::MkDir(string nombre)
@@ -53,6 +54,7 @@ void Arbol::CD(string nombre)
 		
 		if (PadreActual->Hijos[i]->getNombre() == nombre)
 		{
+			PadreAnterior = PadreActual;
 			PadreActual = PadreActual->Hijos[i];
 		}
 
@@ -80,6 +82,11 @@ bool Arbol::RmDir(string nombre)
 
 	}
 	return true;
+}
+
+void Arbol::CDback()
+{
+	PadreActual = PadreAnterior;
 }
 
 

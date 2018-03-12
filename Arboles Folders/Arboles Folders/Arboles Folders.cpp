@@ -18,6 +18,11 @@ int main()
 	folders.Dir();
 	folders.RmDir("canciones");
 	folders.Dir();
+	folders.CDback();
+	folders.MkDir("Indie");
+	folders.MkDir("Bandas");
+	folders.Dir();
+
 	
     return 0;
 }
