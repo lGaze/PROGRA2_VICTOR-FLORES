@@ -1,16 +1,18 @@
 #include "stdafx.h"
 #include "Nodo.h"
 #include "Lista ligada.h"
+#define T int
+
 
 
 int main()
 { 
-	Lista_ligada list;
-	list.ADD_start(1);
-	list.ADD_end(2);
-	list.ADD_end(3);
-	list.ADD_end(4);
-	list.ADD_start(5);
+	Lista_ligada<T> list;
+	list.ADD_start('a');
+	list.ADD_end('b');
+	list.ADD_end('c');
+	list.ADD_end('T');
+	list.ADD_start('W');
 	list.Print();
 	list.Recorrer(4);
 

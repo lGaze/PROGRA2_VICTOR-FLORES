@@ -10,10 +10,10 @@
 using namespace std;
 
 //#define USE_STACK
-#define USE_HEAP
+//#define USE_HEAP
 	//#define USE_MALLOC
-	#define USE_NEW
-//#define USE_VECTOR
+	//#define USE_NEW
+#define USE_VECTOR
 
 
 Parseador::Parseador()
