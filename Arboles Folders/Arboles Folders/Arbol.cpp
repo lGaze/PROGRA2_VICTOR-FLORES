@@ -61,7 +61,7 @@ void Arbol::CD(string nombre)
 
 void Arbol::Dir()
 {
-	cout << " " << Root->getNombre()<< endl;
+	cout << " " << PadreActual->getNombre()<< endl;
 	for (int i = 0; i < PadreActual->Hijos.size(); i++)
 	{
 		cout << "       " << PadreActual->Hijos[i]->getNombre() << endl;    

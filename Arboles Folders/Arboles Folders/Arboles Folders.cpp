@@ -38,7 +38,7 @@ int main()
 		}
 		else if (caso == "CD")
 		{
-			system("cls");
+			
 			cout << "C\\>:";
 			cin >> nombre;
 			folders.CD(nombre);
