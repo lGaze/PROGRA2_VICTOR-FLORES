@@ -12,6 +12,8 @@ public:
 	void Dir();
 	bool RmDir(string nombre);
 	void CDback();
+	void CDRoot();
+	void CDPadreActual();
 	NODO * Root;
 	int contador = 0;
 	NODO * PadreActual;

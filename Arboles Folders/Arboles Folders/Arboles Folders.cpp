@@ -15,51 +15,57 @@ int main()
 	string nombre;
 	string caso;
 
+	cout << "C\\Users"; cout << "\\"; folders.CDPadreActual(); cout << ">";
 	while (true)
 	{
-		cout << "C\\>:";
+		
 		cin >> caso;
+		
 
-		if (caso == "MkDir")
+
+		if (caso == "cd..")
 		{
-			system("cls");
-			cout << "C\\>:";
+			
+			folders.CDback();
+			cout << "C\\Users"; cout << "\\"; folders.CDPadreActual(); cout << ">";
+
+		}
+
+		else if (caso == "dir")
+		{
+
+			cout << "C\\Users"; cout << "\\"; cout << ">";
+			folders.Dir(); 
+			cout << "C\\Users"; cout << "\\"; folders.CDPadreActual(); cout << ">";
+		}
+
+		else if (caso == "mkdir")
+		{
 			cin >> nombre;
+			cout << "C\\Users"; cout << "\\"; folders.CDPadreActual(); cout << ">";
 			folders.MkDir(nombre);
 			
 		}
-		else if(caso == "RmDir")
+		else if(caso == "rmdir")
 		{
-			system("cls");
-			cout << "C\\>:";
+		
 			cin >> nombre;
+			cout << "C\\Users"; cout << "\\"; folders.CDPadreActual(); cout << ">";
+			
 			folders.RmDir(nombre);
 			
 		}
-		else if (caso == "CD")
+		else if (caso == "cd")
 		{
-			
-			cout << "C\\>:";
 			cin >> nombre;
 			folders.CD(nombre);
-			
+			cout << "C\\Users"; cout << "\\"; folders.CDPadreActual(); cout << ">";
 		}
-		else if (caso == "CD..")
+		
+		else if (caso!= "cd" | caso != "mkdir"| caso != "cd.." | caso != "dir" | caso != "rmdir")
 		{
-			system("cls");
-			cout << "C\\>:";
-			folders.CDback();
-			
-		}
-		else if (caso == "Dir")
-		{
-			system("cls");
-			cout << "C:";
-			folders.Dir();	
-		}
-		else
-		{
-			cout << "Fail";
+			cout << "Fail" << endl;
+			cout << "C\\Users"; cout << "\\"; folders.CDPadreActual(); cout << ">";
 		}
 	}
 	
