@@ -1,0 +1,8 @@
+﻿  Comprimir.cpp
+c:\users\victor\desktop\progra ii\progra2_victor-flores\compressor\compressor\comprimir.cpp(52): warning C4018: '<': no coinciden signed/unsigned
+c:\users\victor\desktop\progra ii\progra2_victor-flores\compressor\compressor\comprimir.cpp(54): warning C4018: '<': no coinciden signed/unsigned
+c:\users\victor\desktop\progra ii\progra2_victor-flores\compressor\compressor\comprimir.cpp(67): warning C4018: '<': no coinciden signed/unsigned
+c:\users\victor\desktop\progra ii\progra2_victor-flores\compressor\compressor\comprimir.cpp(69): warning C4018: '<': no coinciden signed/unsigned
+c:\users\victor\desktop\progra ii\progra2_victor-flores\compressor\compressor\comprimir.cpp(87): warning C4018: '<': no coinciden signed/unsigned
+  Compressor.vcxproj -> C:\Users\Victor\Desktop\PROGRA II\PROGRA2_VICTOR-FLORES\Compressor\Debug\Compressor.exe
+  Compressor.vcxproj -> C:\Users\Victor\Desktop\PROGRA II\PROGRA2_VICTOR-FLORES\Compressor\Debug\Compressor.pdb (Partial PDB)
